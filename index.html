@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crypto Converter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 
+    - Favicon missing
+    - JS Missing
+    - Title needs to be centered 
+    - Need a div under submit for Additional informations even quotes :)
+    - Also we need one more tile with small research on it "what is your favorite crypto :)"
+    -->
+</head>
+
+<body>
+    <!--Title -->
+    <div class="tile is-ancestor m-6">
+        <div class="tile is-4 is-vertical is-parent">
+            <div class="tile is-child box">
+                <p class="title">Crypto Converter</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="tile is-ancestor m-6">
+        <div class="tile is-4 is-vertical is-parent">
+            <!--BitcoinPic -->
+            <div class="tile is-child box">
+                <div class=""><img src="pic/c.jpg" alt=""></div>
+            </div>
+            <!--Discription -->
+            <div class="tile is-child box">
+                <p class="title">Description</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+            </div>
+        </div>
+        <!--Currency converter -->
+        <div class="tile is-parent">
+            <div class="tile is-child box">
+                <p class="title">Converter</p>
+
+                <div class=" is-ancestor m-6">
+                    <div class=".container">
+                        <div class=".container">
+                            <!--Fiat Currencies -->
+                            <div class="field has-addons has-addons-centered">
+                                <p class="control">
+                                    <span class="select">
+                                    <select>
+                                      <option>Dollar$</option>
+                                      <option>Pound£</option>
+                                      <option>Euro€</option>
+                                    </select>
+                                  </span>
+                                </p>
+                                <p class="control">
+                                    <input class="input" type="text" placeholder="Amount of money">
+                                </p>
+
+                            </div>
+
+                            <div class="is-justify-content-center">
+                                <p class="has-text-centered align-content: center m-4">Equal to</p>
+                            </div>
+
+                            <!-- Crypto Currencies -->
+                            <div class="field has-addons has-addons-centered">
+                                <p class="control">
+                                    <span class="select">
+                                    <select>
+                                        <option>BitCoin</option>
+                                        <option>ETH</option>
+                                        <option>ADA</option>
+                                    </select>
+                                  </span>
+                                </p>
+                                <p class="control">
+                                    <input class="input" type="text" placeholder="Amount of money">
+                                </p>
+
+
+                            </div>
+                            <!-- Submit Field -->
+                            <div class="container">
+                                <div class="field is-grouped is-justify-content-center">
+                                    <p class="control">
+                                        <a class="button is-primary">Submit</a>
+                                    </p>
+                                    <p class="control">
+                                        <a class="button is-light">Cancel</a>
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Crypto Converter</strong> made by <a href="https://janosnyul.com">Janos Nyul</a>.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
