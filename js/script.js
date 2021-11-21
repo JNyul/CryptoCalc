@@ -5,8 +5,8 @@
 
 
 
-    function result_(x) {
-    document.querySelector("#result").innerHTML = x;
+function result_(x) {
+document.querySelector("#result").innerHTML = x;
 
 }
 
